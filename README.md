@@ -10,3 +10,5 @@ Features:
 * TCP and UDP tests are also included in test_module. A localhost server is set up on a separate thread and a packet is sent through a localhost client socket to the localhost server. The packet sniffer is tested to see if it catches the packet.
 
 # Screenshots
+![Real time verbose output](https://github.com/yarnspinnered/py_packet_sniffer/blob/master/img/Summary.png?raw=true "Real-time output")
+![Summary statistics](https://github.com/yarnspinnered/py_packet_sniffer/blob/master/img/Verbose.png?raw=true "End statistics")

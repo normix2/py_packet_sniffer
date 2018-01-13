@@ -58,7 +58,7 @@ class IPPacketCatcher(threading.Thread):
         stop_time = time.time() + self.duration
 
         while time.time() < stop_time:
-            raw_data = s.recvfrom(65536)
+            raw_data = s.recvfrom(2048)
             pkt_data = raw_data[0]
             parsed_pkt = parse_packet(pkt_data)
             if parsed_pkt is None:
